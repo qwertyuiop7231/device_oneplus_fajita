@@ -27,6 +27,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),fajita)
+ifeq ($(TARGET_DEVICE),GT-i9000)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
