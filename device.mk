@@ -44,10 +44,10 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/oneplus/common
+    device/samsung/common
 
 # Inherit from oneplus sdm845-common
-$(call inherit-product, device/oneplus/sdm845-common/common.mk)
+$(call inherit-product, device/samsung/GT-i9000/common.mk)
 
 # Inherit from vendor blobs
-#$(call inherit-product, vendor/oneplus/fajita/fajita-vendor.mk)
+#$(call inherit-product, vendor/samsung/GT-i9000/GT-i9000-vendor.mk)
